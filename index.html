@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Followup Materials</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/responsive.css">
+  <link rel="stylesheet" href="/css/prism.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- //Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <!-- boxicons css -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="/prism.js"></script>
+  <script src="/search.js"></script>
+</head>
+
+<body>
+  <nav class="navbar bg-body-tertiary ">
+    <div class="container-fluid p-3  bg-info">
+      <h1 class="navbar-brand">Followup Materials</h1>
+      <form id="search-input" class="d-flex" role="search">
+        <input id="search-input" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button id="search-input" class="btn search btn-outline-success" type="submit"
+          onclick="search()">Search</button>
+          <div id="hamburger-icon" class="hamburger-icon">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+      </form>
+
+    </div>
+  </nav>
+  <div class="hamburger" onclick="toggleNav()">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+</div>
+  <nav
+    style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);display: flex;justify-content: center;align-items: center;"
+    aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item " aria-current="page"><a href="/index.html">Home</a></li>
+      <!-- <li class="breadcrumb-item active" >DYS</li> -->
+    </ol>
+  </nav>
+  <div class="container list-group">
+
+    <a title="Discover Your Self" class="home_card__hcOh0" href="/dys.html"><img alt="Discover Your Self"
+        loading="eager" width="300" height="200" decoding="async" data-nimg="1" src="/images/DYS poster.webp"
+        style="color: transparent;">
+      <h2><b>Discover Your Self</b></h2>
+    </a>
+    <a title="Spiritual Scientist" class="home_card__hcOh0" href="/dys.html"><img alt="Discover Your Self"
+        loading="eager" width="300" height="200" decoding="async" data-nimg="1" src="/images/spiritual scientist.jpg"
+        style="color: transparent;">
+      <h2><b>Spiritual Scientist</b></h2>
+    </a>
+  </div>
+</body>
+
+</html>

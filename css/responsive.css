@@ -1,0 +1,26 @@
+
+@media  (min-width:300px) and (max-width:625px) {
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       }
+       .container {
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (min-width:626px) and (max-width:1000px) {
+   .grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   }
+}
+@media (min-width:1001px) {
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+       }
+}
+

@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@600&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    max-width: 100vw;
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+body::before {
+        content: "";
+        background-image: url('/images/water-1330252_1920.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; /* Ensure the pseudo-element is rendered behind the content */
+        opacity: 0.4; /* Set the opacity of the background image */
+    }
+.navbar-brand {
+    font-family: 'Potta One', cursive !important;
+}
+.navbar{
+    padding-bottom: 0px !important;
+  padding-top: 0px !important;
+}
+
+.container {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* max-width: 1024px; */
+    flex-direction: row;
+}
+.list-group{
+    display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  justify-content: center;
+  align-items: center;
+}
+.mx-auto{
+    display: block;
+
+}
+.breadcrumb a{
+    font-weight: bold;
+}
+.home_card__hcOh0 {
+    box-shadow: 0 0 10px gray;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    width: 300px;
+    position: relative;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.home_card__hcOh0 h2 {
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    background: hsla(0, 0%, 100%, .533);
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.2rem;
+    color: black;
+}
+.home_card__hcOh0 h2:hover{
+    background-color: rgba(var(--bs-link-color-rgb));
+    color: whitesmoke ;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+.home_card__hcOh0 img:hover{
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1fr;
+    grid-auto-columns: auto;
+}
+
+.toolbar-item button {
+    color: white !important;
+    border: 1px solid white !important;
+    border-radius: 15px !important;
+    padding: 5px 14px !important;
+}
+.btn-outline-success:hover{
+    background-color: rgba(var(--bs-link-color-rgb)) !important;
+}
+.title{
+    text-align: center;
+    font-family: 'Potta One', cursive !important;
+}
+.gap-2{
+    margin: 15px 0;
+}
+.video-container {
+    text-align: center;
+}
+
+.video-container video {
+    width: 100%; /* Adjust the width as needed */
+    max-width: 600px; /* Set a maximum width if desired */
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+/* Add your existing styles here */
+
+/* Hamburger Icon Styles */
+.hamburger-icon {
+    display: none; /* Initially hide the hamburger icon */
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* Media Query for 900px */
+  @media screen and (max-width: 900px) {
+    #search-button {
+      display: none; /* Hide the search button when screen size is 900px */
+    }
+  
+    .hamburger-icon {
+      display: block; /* Show the hamburger icon when screen size is 900px */
+    }
+  
+    /* Additional styles for mobile menu */
+    /* ... */
+  }
+  
+  /* Media Query for 1000px */
+  @media screen and (min-width: 1000px) {
+    .hamburger-icon {
+      display: none; /* Hide the hamburger icon when screen size is 1000px */
+    }
+  }
+  
+
+.bar {
+    /* width: 10%; */
+    height: 5px;
+    margin: 3px;
+    background-color: #fff;
+    transition: 0.4s;
+    
+    
+}
+.linked-videos{
+    /* display: flex;
+    justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    max-width: 800px;
+    margin: 20px auto;
+
+}
+.download-button{
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+}
