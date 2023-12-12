@@ -68,15 +68,16 @@ body::before {
     display: block;
 
 }
-.w-42{
-    width: 42vw;
-    margin: auto;
+.bg-blue{
+    background-color: #89CFF3;
+    border: 2px solid white;
 }
 .breadcrumb a {
     font-weight: bold;
     position: relative;
     top: 4px;
     font-family: 'Berkshire Swash', serif;
+    color: #0d50d0;
 }
 
 .home_card__hcOh0 {
@@ -173,7 +174,8 @@ body::before {
     }
 
     .hamburger-icon {
-        /* display: block; Show the hamburger icon when screen size is 900px */
+        display: block;
+         /* Show the hamburger icon when screen size is 900px */
     }
 
     /* Additional styles for mobile menu */
