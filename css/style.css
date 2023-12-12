@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Montserrat&display=swap');
 body {
     padding: 0;
     margin: 0;
@@ -67,9 +68,15 @@ body::before {
     display: block;
 
 }
-
+.w-42{
+    width: 42vw;
+    margin: auto;
+}
 .breadcrumb a {
     font-weight: bold;
+    position: relative;
+    top: 4px;
+    font-family: 'Berkshire Swash', serif;
 }
 
 .home_card__hcOh0 {
@@ -205,4 +212,7 @@ body::before {
     display: block;
     margin-top: 10px;
     text-align: center;
+}
+ol{
+    margin-left: -20px;
 }
