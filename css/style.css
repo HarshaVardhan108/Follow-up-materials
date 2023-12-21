@@ -229,9 +229,9 @@ li h4{
 ol{
     margin-left: -20px;
 }
-
+/* 
 .footer{
-    background-color: #89CFF3;;
+    background-color: #89CFF3;
     width: 100vw;
     max-height: 10vh;
     position: fixed;
@@ -245,6 +245,35 @@ ol{
     padding: 5px;
 }
 /* footer */
-.list-none{
+/* .list-none{
     list-style-type: none;
-}
+}  */
+footer {
+    background: #89CFF3;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+  }
+  
+  @media screen and (max-width: 768px) {
+    footer {
+      padding: 10px;
+    }
+  }
+  
+  .company-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
