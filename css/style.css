@@ -247,7 +247,7 @@ footer {
     background: #89CFF3;
     padding: 20px;
     text-align: center;
-    position: sticky;
+    position: fixed;
     bottom: 0;
     width: 100vw;
   }
