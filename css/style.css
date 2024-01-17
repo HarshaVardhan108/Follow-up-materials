@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@600&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
 body {
     padding: 0;
     margin: 0;
@@ -39,7 +42,7 @@ body::before {
     object-fit: cover;
     z-index: -1;
 }
-  
+
 .navbar-brand {
     font-family: 'Potta One', cursive !important;
 }
@@ -70,10 +73,12 @@ body::before {
     display: block;
 
 }
-.bg-blue{
+
+.bg-blue {
     background-color: #89CFF3;
     border: 2px solid white;
 }
+
 .breadcrumb a {
     font-weight: bold;
     position: relative;
@@ -110,6 +115,7 @@ body::before {
     text-overflow: ellipsis;
     font-size: 1.2rem;
     color: black;
+    font-family: 'Comfortaa', sans-serif;
 }
 
 .home_card__hcOh0 h2:hover {
@@ -160,12 +166,15 @@ body::before {
     /* Initially hide the hamburger icon */
     cursor: pointer;
 }
-li{
+
+li {
     color: #10ffff;
 }
-li h4{
+
+li h4 {
     color: #10ffff;
 }
+
 .bar {
     width: 25px;
     height: 3px;
@@ -213,62 +222,52 @@ li h4{
 
 }
 
-.card-text{
+.card-text {
     display: inline;
 }
+
 .download-button {
     display: block;
     margin-top: 10px;
     text-align: center;
 }
-ol{
+
+ol {
     margin-left: -20px;
 }
-/* 
-.footer{
-    background-color: #89CFF3;
-    width: 100vw;
-    max-height: 10vh;
-    position: fixed;
-    bottom: 0;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.links a{
-    border:2px solid green;
-    padding: 5px;
-}
-/* footer */
-/* .list-none{
-    list-style-type: none;
-}  */
+
 footer {
+    font-family: 'Comfortaa', sans-serif;
     background: #89CFF3;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100vw;
-  }
-  
-  @media screen and (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
     footer {
-      padding: 10px;
+        padding: 10px;
     }
-  }
-  
-  .company-name {
+}
+
+.company-name {
     font-size: 18px;
     margin-bottom: 10px;
-  }
-  
-  .button {
+}
+
+.button {
     background: #333;
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
+}
+.container ol li{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
