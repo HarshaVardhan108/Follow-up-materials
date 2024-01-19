@@ -56,8 +56,8 @@ body::before {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
-    /* max-width: 1024px; */
+    /* justify-content: center;
+    max-width: 1024px; */
     flex-direction: row;
 }
 
@@ -245,13 +245,15 @@ footer {
     bottom: 0;
     width: 100vw;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     footer {
         padding: 10px;
+        position: relative;
+        bottom: 0;
     }
 }
 
